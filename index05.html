@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+</head>
+
+<body>
+    <div id="start" class="screen show">
+        <h1>Aim Training</h1>
+        <a href="#menu">Start Game</a>
+    </div>
+    <div id="menu" class="screen">
+        <h1>Choose a time</h1>
+        <a id="10" href="#prosesGame">10 sec</a>
+        <a id="20" href="#prosesGame">20 sec</a>
+        <a id="30" href="#prosesGame">30 sec</a>
+    </div>
+    <div id="prosesGame" class="screen">
+        <span id="time">Remains 00:00</span>
+        <div class="window"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 300vh;
+    background:
+      linear-gradient(217deg, rgba(255, 0, 0, 0.746), rgba(255,0,0,0) 70.71%),
+      linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+      linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+       scroll-behavior: smooth;
+       
+}
+
+.screen.show{
+    overflow:hidden;
+   display:flex;
+   top: 0;
+}
+
+.screen{
+  
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+*{
+    overflow: hidden;
+}
+.window{
+    height:500px;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.287);
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  
+}
+.window.center{
+    
+  display:flex;
+  flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.window.center h1{
+ font-size: 40px;
+}
+.window.center a{
+     font-size: 40px;
+}
+h1{
+    font-size: 80px;
+}
+a{
+    text-decoration: none;  
+    font-size: 40px;
+    color: black;
+    margin: 5px;
+}
+
+a:hover{
+    color: rgba(0, 0, 0, 0.431);  
+}
+a:active{
+    font-size: 45px;
+}
+.circle{
+    display: block;
+   position: relative;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.657);
+      box-shadow: 0 0 3px rgba(255, 255, 255, 0.5);
+
+}
+#time{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
