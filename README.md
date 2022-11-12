@@ -7,4 +7,4 @@ I sorted everything and created a separate repository
 
 Git-hub pages -  https://alexreshetnik.github.io/Game_aim_training/
 
-Просто веб гра на швидкість реакції і кліки мишкою з трьома рівнями важкості
+Just a web game on reaction speed and mouse clicks with three levels of difficulty
